@@ -1,0 +1,35 @@
+/* #212165 primary
+#ff8e00 second */
+
+h2 {
+  color : #ff8e00;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h1 {
+  color : #a199da;
+  text-shadow: 1px 1px white;
+  text-transform: capitalize;
+  background-image: linear-gradient(to bottom,  #040466, #ff8e00);
+}
+
+h3{
+  color : #a199da;
+  text-shadow: 1px 1px white;
+  font-style: italic;
+}
+
+footer {
+  background-color: #040466;
+  color : #ff8e00;
+}
+
+#blue{
+  background-color: #040466;
+  color:white;
+}
+
+body{
+  color:#7c7cc3;
+}
