@@ -12,6 +12,8 @@ h1 {
   text-shadow: 1px 1px white;
   text-transform: capitalize;
   background-image: linear-gradient(to bottom,  #040466, #ff8e00);
+  padding : 0px;
+  margin : 0px;
 }
 
 h3{
@@ -28,6 +30,11 @@ footer {
 #blue{
   background-color: #040466;
   color:white;
+}
+
+#blueP{
+  background-color: #040466;
+  color:#ff8e00;
 }
 
 body{

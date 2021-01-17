@@ -25,7 +25,7 @@
             <a class="nav-link" href="index.html" style="color:white;">Accueil <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projet.html" style="color:white;">Projet</a>
+            <a class="nav-link" href="projet.html" style="color:white;">Nos évenements</a>
           </li>
         </ul>
       </div>
@@ -36,10 +36,31 @@
     <center>
     <h1>Bienvenue sur notre site !</h1>
 
-    <div class="row">
-      <div class="col-sm-12">
-        <img src="images/guitare.jpg" alt="musique" class="img-thumbnail">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/audience.jpg" alt="Concert dans des Ehpads">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/guitare.jpg" alt="Représentation dans une école">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/piano.jpg" alt="Distribution d'instrument en Afrique">
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
     <div class="row">
@@ -56,7 +77,7 @@
         <h2>Nos Objectifs :</h2>
       </div>
       <br>
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="thumbnail">
             <img src="images/audience.jpg" alt="concerts" style="width:100%">
             <div class="caption">
@@ -65,7 +86,7 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="thumbnail">
             <img src="images/piano.jpg" alt="leçons" style="width:100%">
             <div class="caption">
