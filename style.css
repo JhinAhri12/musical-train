@@ -1,6 +1,13 @@
 /* #212165 primary
 #ff8e00 second */
 
+/*media queries*/
+@media screen and (max-width:411px){
+  .div{
+  margin-bottom:2px;
+  }
+}
+
 h2 {
   color : #ff8e00;
   text-transform: uppercase;
